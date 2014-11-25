@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+body{
+	background-image:url(captiveportal-bg.png);
+	margin:0;
+	padding:0;
+	font-family:"Century Gothic";
+	color:#FFFFFF;
+}
+
+h2{
+	font-weight:normal;
+	font-size:30px;
+}
+
+#franja_top{
+	padding:8px 0 0 0;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:100px;
+	background-image:url(captiveportal-bg2.png);
+	/* background-color:#D8D8D8; */
+}
+
+#linea_blanca{
+	width:100%;
+	height:1.5px;
+	background-color:#A8A8A8;
+	background-color:#FFF;
+}
+
+#contenedor_logo{
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+} 
+
+#contenedor_formulario{
+	width:489px;
+	height:341px;
+	background-color:#003366;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:80px;
+}
+
+#contenedor_titulo{
+	width:489px;
+	height:60px;
+}
+
+#contenedor_titulo h2{
+	margin-left:100px;
+	padding-top:30px;
+}
+
+#contenedor_campos_formulario{
+	width:489px;
+	height:230px;
+	margin-top:20px;
+}
+
+#contenedor_campos_formulario input{
+	width:400px;
+	height:50px;
+	background-color:#FFF;
+	margin:10px 0 15px 40px;
+	padding:0;
+	border:0;
+	font-size:20px;
+	color:#0a0700;
+	padding:0 0 0 5px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+
+#contenedor_campos_formulario input.botonenviar{
+	width:300px;
+	height:50px;
+	background-color:#C8C8C8;
+	color:#003366;
+	margin:10px 0 0 145px;
+	padding:0;
+	border:0;
+	cursor:pointer;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+
+#contenedor_termo {
+	width:489px;
+	height:12x;
+	padding:12px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:10px;
+	color:#CCCCCC;
+}
+
+/*/////////////////MOVIL///////////*/
+
+#contenedor_movil{
+	width:90%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logotipo_movil{
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+#contenedor_movil input{
+	width:100%;
+	height:80px;
+	background-color:#FFF;
+	margin:20px 0 0 0;
+	border:0;
+	font-size:20px;
+	color:#0a0700;
+}
+
+#contenedor_movil input.botonenviar{
+	width:100%;
+	height:80px;
+	background-color:#003366;
+	margin:20px 0 0 0;
+	padding:0;
+	border:0;
+	cursor:pointer;
+	font-size:20px;
+	text-align:center;
+	color:#FFF;
+}
+	
+
+/*///////////////FIN MOVIL////////*/
